@@ -2,7 +2,7 @@
 
 A simple and clean e-commerce web application built using **Laravel 12**.
 
-## 🚀 Features
+## Features
 
 - User Registration & Login
 - Product Listing & Details Page
@@ -14,7 +14,7 @@ A simple and clean e-commerce web application built using **Laravel 12**.
   - Product Management (with image upload)
   - Order Management
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Laravel 12 (Backend)
 - MySQL (Database)
@@ -24,7 +24,7 @@ A simple and clean e-commerce web application built using **Laravel 12**.
 
 ---
 
-## 🧑‍💻 Local Setup Instructions
+## Local Setup Instructions
 
 Follow these steps to run the project locally:
 
@@ -61,11 +61,11 @@ npm run dev
 
 # 11. Start the Laravel server
 php artisan serve
-✅ Admin Panel Access
+ Admin Panel Access
 Login URL: /login
 You can register manually and update is_admin = 1 in the users table via database.
 
-📁 Folder Structure (Important)
+ Folder Structure (Important)
 app/Http/Controllers/Admin — Admin-specific controllers
 
 resources/views/admin — Admin views
@@ -74,11 +74,11 @@ resources/views/frontend — Customer-facing views
 
 public/storage — Product image uploads
 
-🧑‍💻 Developer
-🔗 Nitin Saxena
-📧 ns792999@gmail.com
+Developer
+ Nitin Saxena
+ ns792999@gmail.com
 
-📌 Note
+Note:
 For product image upload to work, make sure storage is linked using php artisan storage:link
 
 For admin access, manually set is_admin = 1 for a user in DB
